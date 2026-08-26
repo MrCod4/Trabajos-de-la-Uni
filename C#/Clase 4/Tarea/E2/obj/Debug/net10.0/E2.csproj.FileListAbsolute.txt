@@ -1,0 +1,14 @@
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\bin\Debug\net10.0\E2.exe
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\bin\Debug\net10.0\E2.deps.json
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\bin\Debug\net10.0\E2.runtimeconfig.json
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\bin\Debug\net10.0\E2.dll
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\bin\Debug\net10.0\E2.pdb
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\E2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\E2.AssemblyInfoInputs.cache
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\E2.AssemblyInfo.cs
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\E2.csproj.CoreCompileInputs.cache
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\E2.dll
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\refint\E2.dll
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\E2.pdb
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\E2.genruntimeconfig.cache
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 4\Tarea\E2\obj\Debug\net10.0\ref\E2.dll

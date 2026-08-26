@@ -1,0 +1,26 @@
+
+========= Libro 1 ===========
+
+Titulo de libro 1: yo
+Autor de libro 1: yo
+Anio de publicacion del libro 1: 1
+========= Libro 2 ===========
+
+Titulo de libro 2: sadsad
+Autor de libro 2: sda
+Anio de publicacion del libro 2: 2
+========= Libro 3 ===========
+
+Titulo de libro 3: sadasd
+Autor de libro 3: sda
+Anio de publicacion del libro 3: 3
+========= Libro 4 ===========
+
+Titulo de libro 4: asdasd
+Autor de libro 4: sd
+Anio de publicacion del libro 4: 4
+========= Libro 5 ===========
+
+Titulo de libro 5: asd
+Autor de libro 5: asd
+Anio de publicacion del libro 5: 5

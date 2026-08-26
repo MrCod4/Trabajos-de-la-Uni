@@ -1,0 +1,14 @@
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\bin\Debug\net10.0\E11.exe
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\bin\Debug\net10.0\E11.deps.json
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\bin\Debug\net10.0\E11.runtimeconfig.json
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\bin\Debug\net10.0\E11.dll
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\bin\Debug\net10.0\E11.pdb
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\E11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\E11.AssemblyInfoInputs.cache
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\E11.AssemblyInfo.cs
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\E11.csproj.CoreCompileInputs.cache
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\E11.dll
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\refint\E11.dll
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\E11.pdb
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\E11.genruntimeconfig.cache
+C:\Users\ebo\OneDrive\Documentos\Semestre 1\C#\Clase 3\E11\obj\Debug\net10.0\ref\E11.dll
