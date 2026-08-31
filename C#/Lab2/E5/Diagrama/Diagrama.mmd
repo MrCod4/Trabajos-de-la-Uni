@@ -1,0 +1,11 @@
+classDiagram
+class VehiculoElectrico{
+
+    -modelo : string
+    -porcentajeBateria : double
+    -consumoPorKm : double
+
+    +Viajar(distanciaKm: double): bool
+    +CargarBateria(porcentaje: double): void
+    +CalcularAutonomiaRestante(): double
+}

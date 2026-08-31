@@ -1,0 +1,11 @@
+classDiagram
+class CuentaBancaria{
+
+    -numeroCuenta : string
+    -titular : string
+    -saldo : double
+    
+    +Depositar(monto: double): void
+    +Retirar(monto: double): bool
+    +ConsultarSaldo(): string
+}

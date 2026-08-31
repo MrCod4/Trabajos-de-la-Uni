@@ -1,0 +1,10 @@
+classDiagram
+class SensorTemp{
+
+    -ubicacion : string
+    -lecturaActual : double
+    -umbralAlerta : double
+
+    +RegistrarLectura(nuevaTemp: double): void
+    +EvaluarEstado(): string
+}
