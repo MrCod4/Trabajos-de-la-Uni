@@ -223,17 +223,88 @@ join equipos e
 on e.codigoequipo = a.codequipo
 and nomcli = 'Carla'
 and appatcli = 'Villa'
-and descripequipo = 'Mezcladora'
+and descripequipo = 'Mezcladora';
 
 --E12
 select max(fechaarriendo)
 from arriendos a,equipos e
 where e.codigoequipo=a.codequipo
-and descripEquipo='Esmeril angular'
+and descripEquipo='Esmeril angular';
 
 --E13
 select max(fechaarriendo)
 from arriendos a join equipos e
 on e.codigoequipo=a.codequipo
-and descripEquipo='Esmeril angular'
+and descripEquipo='Esmeril angular';
+
+--Clase nueva, Group by
+--E14
+select sucursal, sum(costoarriendo) SUMADEARRIENDOS
+from arriendos a
+group by sucursal;
+
+--E15
+select codequipo, round(avg(costoarriendo), 2)
+from arriendos
+where codequipo like 'RT%'
+group by codequipo;
+
+--E16
+select sucursal, fechaarriendo, round(avg(costoarriendo), 2)
+from arriendos
+having sum(costoarriendo) >= 95000
+group by sucursal, fechaarriendo;
+
+
+--E17
+select tipodepago, round(avg(costoarriendo),2)
+from arriendos a
+join clientes c
+on c.rutcliente = a.rutcliente
+where categoria = 1
+group by tipodepago;
+
+--E18
+select sucursal, tipodepago, count(marcaequipo)
+from arriendos a
+join equipos e
+on e.codigoequipo = a.codequipo
+where descripequipo like 'M%'
+group by sucursal, tipodepago;
+
+--E19
+select nomcli, appatcli, apmatcli
+from arriendos a
+join equipos e
+on e.codigoequipo = a.codequipo
+join clientes c
+on a.rutcliente = c.rutcliente
+where marcaequipo like 'S%'
+group by nomcli, appatcli;
+
+--E20
+select tipodepago, round(avg(costoarriendo),2)
+from arriendos a
+join clientes c
+on a.rutcliente = c.rutcliente
+where categoria = 1
+having avg(costoarriendo) > 20000
+group by tipodepago;
+
+--E21
+select nomcli, appatcli, sum(costoarriendo)
+from arriendos a
+join equipos e
+on codigoequipo = codequipo
+join clientes c
+on a.rutcliente = c.rutcliente
+where marcaequipo like 'S%'
+having sum(costoarriendo) > 200000
+group by nomcli, appatcli;
+
+
+
+
+
+
 

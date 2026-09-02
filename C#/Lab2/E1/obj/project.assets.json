@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E1\\E1.csproj",
+      "projectUniqueName": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E1\\E1.csproj",
       "projectName": "E1",
-      "projectPath": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E1\\E1.csproj",
+      "projectPath": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E1\\E1.csproj",
       "packagesPath": "C:\\Users\\ebo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E1\\obj\\",
+      "outputPath": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ebo\\AppData\\Roaming\\NuGet\\NuGet.Config"

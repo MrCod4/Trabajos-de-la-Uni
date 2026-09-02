@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E6\\E6.csproj": {}
+    "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E6\\E6.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E6\\E6.csproj": {
+    "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E6\\E6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E6\\E6.csproj",
+        "projectUniqueName": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E6\\E6.csproj",
         "projectName": "E6",
-        "projectPath": "c:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E6\\E6.csproj",
+        "projectPath": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E6\\E6.csproj",
         "packagesPath": "C:\\Users\\ebo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Clase 6\\E6\\obj\\",
+        "outputPath": "C:\\Users\\ebo\\OneDrive\\Documentos\\GitHub\\Trabajos-de-la-Uni\\C#\\Lab2\\E6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ebo\\AppData\\Roaming\\NuGet\\NuGet.Config"
