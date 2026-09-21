@@ -1,0 +1,14 @@
+classDiagram
+class Personaje{
+    -nombre : string
+    -vida : int 
+    -nivel : int 
+    +Nombre : string
+    +Vida : int 
+    +Nivel : int 
+
+    +Personaje(nombre : string, vida : int, nivel : int) : void
+    +RecibirDanio(cantidad : int) : void
+    +Curarse(cantidad : int) : void
+    +MostrarEstado() void
+}

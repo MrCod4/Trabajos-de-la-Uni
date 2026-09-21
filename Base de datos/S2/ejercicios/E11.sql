@@ -116,4 +116,130 @@ where codigoequipo=(select codequipo
 from arriendos
 where costoarriendo=(select max(costoarriendo)
 from arriendos
-))
+));
+
+--7
+select nomcli, appatcli
+from clientes
+where rutcliente in (
+select rutcliente
+from arriendos 
+where costoarriendo > 100000);
+
+--8
+select descripequipo
+from equipos
+where codigoequipo in(
+select codequipo
+from arriendos);
+
+--9
+select descripequipo
+from equipos
+where (
+select count(*)
+from arriendos
+where codequipo = codigoequipo) > 6;
+
+--10
+select nomcli, appatcli, apmatcli
+from clientes c
+where (
+select count(*)
+from arriendos a
+where c.rutcliente = a.rutcliente) < 4;
+
+--11
+select costoarriendo
+from arriendos a1
+where (
+select count(*)
+from arriendos a2
+where a2.costoarriendo > a1.costoarriendo) < 3;
+
+--12
+select codequipo
+from arriendos
+where costoarriendo > (
+select avg(costoarriendo)
+from arriendos);
+
+--13
+select nomcli, appatcli, apmatcli
+from clientes
+where categoria  > (
+select avg(categoria)
+from clientes);
+
+--14
+select rutcliente, nomcli, appatcli, apmatcli
+from clientes
+where categoria > 1
+and rutcliente in (
+select rutcliente
+from arriendos
+where sucursal = 'Talcahuano');
+
+--15
+select marcaequipo, modeloequipo
+from equipos
+where stock > 15
+and codigoequipo in (
+select codequipo
+from arriendos
+where tipodepago = 'Contado')
+order by marcaequipo, modeloequipo;
+
+--16
+select codigoEquipo, descripEquipo 
+from equipos 
+where codigoEquipo not in
+ 				(select codEquipo 
+				from arriendos);
+                
+--17
+select nomCli, apPatCli
+from clientes
+where rutCliente in
+      (select rutCliente
+       from arriendos
+       group by rutCliente
+       having count(*) > 4);
+       
+--18
+select nomCli, apPatCli
+from clientes
+where rutCliente in
+     	 (select rutCliente
+       	 from arriendos
+      	 where costoArriendo between 50000 and 80000);
+         
+--19
+select nomCli, apPatCli 
+from clientes 
+where rutCliente in 
+		(select rutCliente 
+		from arriendos 
+		where sucursal like 'T%');
+        
+--20
+select codArriendo, sucursal, costoArriendo 
+from arriendos 
+where costoArriendo >any 
+			(select costoArriendo 
+			from arriendos 
+			where sucursal = 'Penco');
+
+--21
+select codArriendo, sucursal, costoArriendo
+from arriendos
+where costoArriendo >all
+      		(select costoArriendo
+      		 from arriendos
+       		where sucursal = 'Penco');
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+classDiagram
+class CuentaAhorro{
+    -Titular : string
+    -saldo : double
+    -NumeroCuenta : int
+    +Saldo : double
+
+    +CuentaAhorro(titular : string, saldo : double, numeroCuenta : int) : void
+    +Depositar(cantidad : double) : void
+    +Retirar(cantidad : double) : void
+}

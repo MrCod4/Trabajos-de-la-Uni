@@ -1,0 +1,14 @@
+classDiagram
+class Vehiculo{
+    -marca : string
+    -patente : string
+    -velocidad : double
+    
+    +Acelerar() : void
+    *Frenar() : void
+}
+
+class Automovil 
+class Motocicleta
+Vehiculo <|-- Automovil
+Vehiculo <|-- Motocicleta
