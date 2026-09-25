@@ -1,0 +1,25 @@
+classDiagram
+class Animal{
+    +HacerSonido() : void
+}
+
+class Perro{
+    +HacerSonido() : void
+}
+
+class Gato{
+    +HacerSonido() : void
+}
+
+class Vaca{
+    +HacerSonido() : void
+}
+
+class Pollito{
+    +HacerSonido() : void
+}
+
+Animal <|-- Perro
+Animal <|-- Gato
+Animal <|-- Vaca
+Animal <|-- Pollito
