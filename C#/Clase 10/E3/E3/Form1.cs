@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using Microsoft.Data.SqlClient;
+
 namespace E3
 {
     public partial class Form1 : Form
